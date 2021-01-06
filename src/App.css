@@ -1,38 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 10px solid purple;
+	font-family: "Poppins", sans-serif;
+	color: purple;
+	background: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	padding: 2em;
+	background: rgba(255, 218, 138, 0.753);
+	display: flex;
+	justify-content: space-around;
+}
+
+.header ul {
+	display: flex;
+	list-style: none;
+}
+
+.header ul li {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin: 0 3em;
+}
+
+.book-container {
+	color: black;
+	background: rgba(255, 218, 138, 0.753);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+	margin: 2em auto;
+	width: 50%;
+	border: 10px solid darkorange;
+}
+
+.book-img {
+	margin: 0 auto;
+	height: auto;
+	width: auto;
+}
+
+.book-description {
+	display: flex;
+	align-self: center;
+	margin-left: 2em;
+}
+
+.book-title {
+	display: flex;
+	justify-content: center;
+}
+
+.info {
+	display: flex;
+}
+
+.footer {
+	border: 10px solid darkorange;
+	padding: 1em;
+	font-weight: bold;
+	background: rgba(255, 218, 138, 0.753);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	text-align: center;
 }
