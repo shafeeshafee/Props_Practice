@@ -45,8 +45,8 @@ a {
 
 .book-img {
 	margin: 0 auto;
-	height: auto;
-	width: auto;
+	height: 300px;
+	width: 200px;
 }
 
 .book-description {
